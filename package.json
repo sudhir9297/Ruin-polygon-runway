@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://sudhir9297.github.io/Ruin-polygon-runway",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "3.0",
@@ -15,6 +18,7 @@
     "@react-three/drei": "^9.50.3",
     "@react-three/fiber": "^8.9.2",
     "@react-three/postprocessing": "^2.16.2",
+    "gh-pages": "^6.1.1",
     "r3f-perf": "^6.6.3",
     "react": "18.2",
     "react-dom": "18.2",
