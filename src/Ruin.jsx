@@ -3,13 +3,11 @@ import React from 'react'
 
 function Model(props) {
     const { nodes, materials } = useGLTF('./model/ruin.glb')
-
     const bakedTexture = useTexture('./model/baked.jpg')
     bakedTexture.flipY = false
 
     return (
         <>
-
             <Bounds fit clip observe margin={1.2}>
                 <Center Center >
                     <group {...props} dispose={null}>

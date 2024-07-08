@@ -1,9 +1,9 @@
+import { Suspense } from 'react'
+import ReactDOM from 'react-dom/client'
+import './style.css'
 import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
-import ReactDOM from 'react-dom/client'
 import Ruin from './Ruin.jsx'
-import { Suspense } from 'react'
-import './style.css'
 
 const root = ReactDOM.createRoot(document.querySelector('#root'))
 
