@@ -1,5 +1,5 @@
-import { Bounds, Center, MeshTransmissionMaterial, Sparkles, useGLTF, useTexture } from '@react-three/drei'
 import React from 'react'
+import { Bounds, Center, MeshTransmissionMaterial, Sparkles, useGLTF, useTexture } from '@react-three/drei'
 
 function Model(props) {
     const { nodes, materials } = useGLTF('./model/ruin.glb')
